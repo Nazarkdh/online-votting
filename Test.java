@@ -1,11 +1,19 @@
-class Person{}
+class person{
+	private int id;
+	private static int outoId;
+	protected String name;
+	private String address;
+	protected int age;
+	protected static int[] vote=new int[5];
+	
+}
 
-class Condidate extends Person{}
+class voter extands Person{
+	
+}
 
-class Voters extends Person{}
-
-class Test{
-	public static void main(String[] args) {
+public class Test{
+	public static void main (string []args){
 		
 	}
 }
